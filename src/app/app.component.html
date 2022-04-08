@@ -1,0 +1,12 @@
+<div [@abertoFechado]="estaAberto ? 'aberto' : 'fechado'" class="container">
+  <h1>Texto</h1>
+  <h1>Texto</h1>
+  <h1>Texto</h1>
+  <input type="text" />
+</div>
+
+<p>está aberto: {{ estaAberto }}</p>
+
+<div class="container-botao">
+  <button (click)="mudar()">{{ textoBotao }}</button>
+</div>
